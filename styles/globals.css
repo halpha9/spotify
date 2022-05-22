@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+    @apply w-10 h-10 mx-4 my-10 
+}
+
+.icon_btn {
+    @apply flex items-center transition-all hover:text-gray-300 duration-300 cursor-pointer
+}
